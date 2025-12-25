@@ -13,39 +13,66 @@ function readFile(fileName = "", type = "") {
   return type ? JSON.parse(data)[formattedKey(type)] : JSON.parse(data);
 }
 
-function getLetterPart(fileName = "", type = "") {
+function getLetterPart(fileName = "", type = "", isObject = false) {
   return (req) => {
     const part = readFile(fileName);
 
     const objectStrucuture = (kana = type) => {
       const key = formattedKey(type ? type : kana);
-      return {
-        [key]: Object.fromEntries(
-          Object.keys(part[key]).map((data) => [
-            data,
-            {
-              romaji: part[key][data].romaji,
-              kana: part[key][data][kana],
-              kakikata_gambar: `${req.protocol}://${req.get("host")}${
-                part[key][data].kakikata_gambar
-              }`,
-              kakikata_animasi: `${req.protocol}://${req.get("host")}${
-                part[key][data].kakikata_animasi
-              }`,
-              ...(part[key][data].catatan && {
-                catatan: part[key][data].catatan,
-              }),
-              kosakata: part[key][data].kosakata?.map((item) => {
+      return !isObject
+        ? {
+            [key]: [
+              ...Object.keys(part[key]).map((data) => {
                 return {
-                  romaji: item.romaji,
-                  kana: item[kana],
-                  arti: item.arti,
+                  romaji: part[key][data].romaji,
+                  kana: part[key][data][kana],
+                  kakikata_gambar: `${req.protocol}://${req.get("host")}${
+                    part[key][data].kakikata_gambar
+                  }`,
+                  kakikata_animasi: `${req.protocol}://${req.get("host")}${
+                    part[key][data].kakikata_animasi
+                  }`,
+                  ...(part[key][data].catatan && {
+                    catatan: part[key][data].catatan,
+                  }),
+                  kosakata: part[key][data].kosakata?.map((item) => {
+                    return {
+                      romaji: item.romaji,
+                      kana: item[kana],
+                      arti: item.arti,
+                    };
+                  }),
                 };
               }),
-            },
-          ])
-        ),
-      };
+            ],
+          }
+        : {
+            [key]: Object.fromEntries(
+              Object.keys(part[key]).map((data) => [
+                data,
+                {
+                  romaji: part[key][data].romaji,
+                  kana: part[key][data][kana],
+                  kakikata_gambar: `${req.protocol}://${req.get("host")}${
+                    part[key][data].kakikata_gambar
+                  }`,
+                  kakikata_animasi: `${req.protocol}://${req.get("host")}${
+                    part[key][data].kakikata_animasi
+                  }`,
+                  ...(part[key][data].catatan && {
+                    catatan: part[key][data].catatan,
+                  }),
+                  kosakata: part[key][data].kosakata?.map((item) => {
+                    return {
+                      romaji: item.romaji,
+                      kana: item[kana],
+                      arti: item.arti,
+                    };
+                  }),
+                },
+              ])
+            ),
+          };
     };
 
     return {
@@ -66,7 +93,7 @@ function getLetterPart(fileName = "", type = "") {
 const getByRomaji = (fileName = "", label = "", type = "") => {
   return (req, res) => {
     const romaji = req.params.romaji.trim().toLowerCase();
-    const romajiPart = getLetterPart(fileName, type);
+    const romajiPart = getLetterPart(fileName, type, true);
 
     const result = romajiPart(req)[formattedKey(type)][romaji];
 
