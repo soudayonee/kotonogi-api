@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://kotonogi-api.vercel.app" rel="_blank">
-    <img width="200" height="200" src="https://kotonogi-api.vercel.app/kotonogi-api.png" alt="Kotonogi API Logo">
+    <img width="200" height="200" src="https://kotonogi-api.vercel.app/kotonogi-logo.png" alt="Kotonogi API Logo">
   </a>
 </p>
 
