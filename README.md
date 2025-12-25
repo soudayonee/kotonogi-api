@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://kotonogi-api.vercel.app" rel="_blank">
-    <img width="200" height="200" src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/flashcard-naufal-8acies/assets/7c0jf1r82sc9/0001_0.png" alt="Kotonogi API Logo">
+    <img width="200" height="200" src="https://kotonogi-api.vercel.app/kotonogi-logo.png" alt="Kotonogi API Logo">
   </a>
 </p>
 
