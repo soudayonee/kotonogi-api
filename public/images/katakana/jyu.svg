@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Original SVG:
+Copyright (C) 2009–2011 Ulrich Apel (KanjiVG)
+Licensed under CC BY-SA 3.0
+http://kanjivg.tagaini.net
+-->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" [ <!ATTLIST g
+	xmlns:kvg CDATA #FIXED "http://kanjivg.tagaini.net" kvg:element CDATA #IMPLIED kvg:variant CDATA #IMPLIED
+	kvg:partial CDATA #IMPLIED kvg:original CDATA #IMPLIED kvg:part CDATA #IMPLIED kvg:number CDATA #IMPLIED
+	kvg:tradForm CDATA #IMPLIED kvg:radicalForm CDATA #IMPLIED kvg:position CDATA #IMPLIED kvg:radical CDATA #IMPLIED
+	kvg:phon CDATA #IMPLIED>
+<!ATTLIST path xmlns:kvg CDATA #FIXED "http://kanjivg.tagaini.net" kvg:type CDATA #IMPLIED>
+	]>
+	<svg xmlns="http://www.w3.org/2000/svg" width="109" height="109" viewBox="0 0 169 169">
+		<g id="kvg:StrokePaths_030b8"
+			style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;">
+			<g id="kvg:030b8" kvg:element="ジ">
+				<path id="kvg:030b8-s1" d="M39.87,19.75c5.14,1.57,9.79,6.01,11.5,8.62" />
+				<path id="kvg:030b8-s2" d="M26,42.62c3.25,0.88,10.25,5.5,12.25,8.13" />
+				<path id="kvg:030b8-s3" d="M33,85c3.62,1.62,6.5,0.88,10.38-1.38c17.81-10.34,32.37-23.87,46.12-42.87" />
+				<path id="kvg:030b8-s4" d="M78.5,18.98c2.85,1.78,6.21,5.47,8.03,8.65" />
+				<path id="kvg:030b8-s5" d="M85.25,14.38c2.93,1.57,6.39,4.83,8.25,7.63" />
+			</g>
+		</g>
+		<g id="kvg:StrokeNumbers_030b8" style="font-size:8;fill:#BC002D;">
+			<text transform="matrix(1 0 0 1 34 19.13)">1</text>
+			<text transform="matrix(1 0 0 1 23.38 38.63)">2</text>
+			<text transform="matrix(1 0 0 1 27.38 78.63)">3</text>
+			<text transform="matrix(1 0 0 1 71.13 17.13)">4</text>
+			<text transform="matrix(1 0 0 1 77.25 12)">5</text>
+		</g>
+		<g id="kvg:StrokePaths_030e5"
+			style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;transform:translateX(80px);">
+			<g id="kvg:030e5" kvg:element="ュ">
+				<path id="kvg:030e5-s1"
+					d="M34.8,52.84c1.91,1.21,4.13,1.67,7.44,1.21c10.65-1.51,13.99-1.68,21.71-2.97c5.43-0.9,6.26,0.13,5.23,5.12c-1.91,9.25-3.92,19.45-5.23,27.49" />
+				<path id="kvg:030e5-s2"
+					d="M24.5,86.21c2.21,1.21,3.84,1.73,7.34,1.21c18.54-2.79,28.95-3.12,43.52-3.12c3.02,0,5.93,0.4,8.95,0.9" />
+			</g>
+		</g>
+		<g id="kvg:StrokeNumbers_030e5" style="font-size:8;fill:#BC002D;transform:translateX(80px);">
+			<text transform="matrix(1 0 0 1 29.13 50.5)">6</text>
+			<text transform="matrix(1 0 0 1 20.63 81.88)">7</text>
+		</g>
+	</svg>

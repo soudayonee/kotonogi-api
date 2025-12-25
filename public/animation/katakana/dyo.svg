@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Original SVG:
+Copyright (C) 2009–2011 Ulrich Apel (KanjiVG)
+Licensed under CC BY-SA 3.0
+http://kanjivg.tagaini.net
+-->
+
+<!--
+Animations & interactive behavior:
+Copyright (C) 2025 Naufal Aditya Yahya
+Licensed under CC BY-SA 3.0
+https://naufaladityayahya.me or https://github.com/soudayonee
+-->
+
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" [ <!ATTLIST g
+  xmlns:kvg CDATA #FIXED "http://kanjivg.tagaini.net" kvg:element CDATA #IMPLIED kvg:variant CDATA #IMPLIED kvg:partial
+  CDATA #IMPLIED kvg:original CDATA #IMPLIED kvg:part CDATA #IMPLIED kvg:number CDATA #IMPLIED kvg:tradForm CDATA
+  #IMPLIED kvg:radicalForm CDATA #IMPLIED kvg:position CDATA #IMPLIED kvg:radical CDATA #IMPLIED kvg:phon CDATA
+  #IMPLIED>
+<!ATTLIST path xmlns:kvg CDATA #FIXED "http://kanjivg.tagaini.net" kvg:type CDATA #IMPLIED>
+  ]>
+  <svg xmlns="http://www.w3.org/2000/svg" width="109" height="109" viewBox="0 0 169 169">
+    <g id="kvg:StrokePaths_030c2"
+      style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;">
+      <g id="kvg:030c2" kvg:element="ヂ">
+        <path id="kvg:030c2-s1" d="M70,15.25c-0.38,2.62-2.26,4.37-4.12,5.38c-7.88,4.25-18.62,9.75-35.5,13.25"
+          stroke="black" fill="transparent" stroke-width="3" stroke-dasharray="1000" stroke-dashoffset="1000">
+          <animate attributeName="stroke-dashoffset" from="1000" to="0" dur="10s" begin="0s" fill="freeze" />
+        </path>
+        <path id="kvg:030c2-s2"
+          d="M18.5,51.5c2.88,0.88,4.39,1.65,7.88,1.25c22-2.5,36.38-4.25,56.12-4.88c4.88-0.15,7.88,0.51,10.88,1.51"
+          stroke="black" fill="transparent" stroke-width="3" stroke-dasharray="1000" stroke-dashoffset="1000">
+          <animate attributeName="stroke-dashoffset" from="1000" to="0" dur="10s" begin="0.8s" fill="freeze" />
+        </path>
+        <path id="kvg:030c2-s3"
+          d="M54.88,30.75c0.88,0.75,1.75,2.49,1.75,4.75c0,6.03,0.03,11.25,0.03,18.27c0,14.98-5.03,29.48-16.53,39.23"
+          stroke="black" fill="transparent" stroke-width="3" stroke-dasharray="1000" stroke-dashoffset="1000">
+          <animate attributeName="stroke-dashoffset" from="1000" to="0" dur="10s" begin="1.6s" fill="freeze" />
+        </path>
+        <path id="kvg:030c2-s4" d="M79.88,25.73c2.85,1.78,6.21,5.47,8.03,8.65" stroke="black" fill="transparent"
+          stroke-width="3" stroke-dasharray="1000" stroke-dashoffset="1000">
+          <animate attributeName="stroke-dashoffset" from="1000" to="0" dur="10s" begin="2.4s" fill="freeze" />
+        </path>
+        <path id="kvg:030c2-s5" d="M86.63,21.12c2.93,1.57,6.39,4.83,8.25,7.63" stroke="black" fill="transparent"
+          stroke-width="3" stroke-dasharray="1000" stroke-dashoffset="1000">
+          <animate attributeName="stroke-dashoffset" from="1000" to="0" dur="10s" begin="3.2s" fill="freeze" />
+        </path>
+      </g>
+    </g>
+    <g id="kvg:StrokeNumbers_030c2" style="font-size:8;fill:#BC002D;">
+      <text transform="matrix(1 0 0 1 61.76 12.63)">1</text>
+      <text transform="matrix(1 0 0 1 13.63 46.75)">2</text>
+      <text transform="matrix(1 0 0 1 47.76 37.63)">3</text>
+      <text transform="matrix(1 0 0 1 73.76 23.38)">4</text>
+      <text transform="matrix(1 0 0 1 79.63 18.5)">5</text>
+    </g>
+    <g id="kvg:StrokePaths_030e7"
+      style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;transform:translateX(80px);">
+      <g id="kvg:030e7" kvg:element="ョ">
+        <path id="kvg:030e7-s1"
+          d="M33.5,50.62c1.9,1.21,4.09,1.6,7.39,1.21c11.19-1.32,21.35-2.46,29.07-3.44c4.79-0.61,5.49,0.4,5.2,5.16c-0.79,12.56-1.5,24.79-2.4,34.21"
+          stroke="black" fill="transparent" stroke-width="3" stroke-dasharray="1000" stroke-dashoffset="1000">
+          <animate attributeName="stroke-dashoffset" from="1000" to="0" dur="10s" begin="4s" fill="freeze" />
+        </path>
+        <path id="kvg:030e7-s2"
+          d="M33.6,69.04c1.9,1.21,4.09,1.6,7.39,1.21c8.39-0.99,18.23-1.85,24.86-2.47c2.21-0.2,4.21,0.04,6.21,0.44"
+          stroke="black" fill="transparent" stroke-width="3" stroke-dasharray="1000" stroke-dashoffset="1000">
+          <animate attributeName="stroke-dashoffset" from="1000" to="0" dur="10s" begin="4.8s" fill="freeze" />
+        </path>
+        <path id="kvg:030e7-s3"
+          d="M29,90.06c2.2,1.05,3.79,1.36,7.29,1.05c9.99-0.88,23.47-2.35,33.07-2.35c2.7,0,4.49,0,7.49,0.44"
+          stroke="black" fill="transparent" stroke-width="3" stroke-dasharray="1000" stroke-dashoffset="1000">
+          <animate attributeName="stroke-dashoffset" from="1000" to="0" dur="10s" begin="5.6s" fill="freeze" />
+        </path>
+      </g>
+    </g>
+    <g id="kvg:StrokeNumbers_030e7" style="font-size:8;fill:#BC002D;transform:translateX(80px);">
+      <text transform="matrix(1 0 0 1 27.63 50.5)">6</text>
+      <text transform="matrix(1 0 0 1 26.5 69.25)">7</text>
+      <text transform="matrix(1 0 0 1 24 86.5)">8</text>
+    </g>
+  </svg>
