@@ -16,7 +16,7 @@
 
 [![Status](https://img.shields.io/badge/status-aktif-success.svg)]()
 [![GitHub Repo](https://img.shields.io/badge/github-kotonogi--api-BB042C.svg)](https://github.com/soudayonee/kotonogi-api)
-[![API Version](https://img.shields.io/badge/versi-1.0.0-blue.svg)]()
+[![API Version](https://img.shields.io/badge/versi-2.0.1-blue.svg)]()
 
 </div>
 
@@ -95,46 +95,46 @@ https://kotonogi-api.vercel.app
 
 ### 📍 Overview Endpoints <a name="overview-endpoints"></a>
 
-| Endpoint          | Deskripsi                                                   |
-| ----------------- | ----------------------------------------------------------- |
-| `GET /`           | Informasi & dokumentasi singkat API                         |
-| `GET /full`       | Semua huruf Hiragana, Katakana, Dakuten, Handakuten, dan Yoon                |
-| `GET /hirakata`   | Semua Hiragana & Katakana                                   |
-| `GET /dakuten`    | Semua huruf Dakuten                                         |
-| `GET /handakuten` | Semua huruf Handakuten                                      |
-| `GET /yoon`       | Semua huruf Yoon                                            |
+| Endpoint          | Deskripsi                                                     |
+| ----------------- | ------------------------------------------------------------- |
+| `GET /`           | Informasi & dokumentasi singkat API                           |
+| `GET /full`       | Semua huruf Hiragana, Katakana, Dakuten, Handakuten, dan Yoon |
+| `GET /hirakata`   | Semua Hiragana & Katakana                                     |
+| `GET /dakuten`    | Semua huruf Dakuten                                           |
+| `GET /handakuten` | Semua huruf Handakuten                                        |
+| `GET /yoon`       | Semua huruf Yoon                                              |
 
 ---
 
 ### 🟦 Hiragana Endpoints <a name="hiragana-endpoints"></a>
 
-| Endpoint                           | Deskripsi                          |
-| ---------------------------------- | ---------------------------------- |
-| `GET /hiragana`                    | Daftar lengkap Hiragana               |
-| `GET /hiragana/full`               | Daftar lengkap Hiragana (termasuk Dakuten,  Handakuten, dan Yoon)                    |
-| `GET /dakuten/hiragana`            | Hiragana dengan Dakuten            |
-| `GET /handakuten/hiragana`         | Hiragana dengan Handakuten         |
-| `GET /yoon/hiragana`               | Hiragana Yoon                      |
-| `GET /hiragana/:romaji`            | Detail huruf Hiragana berdasarkan romaji |
-| `GET /dakuten/hiragana/:romaji`    | Detail huruf Dakuten Hiragana berdasarkan romaji            |
-| `GET /handakuten/hiragana/:romaji` | Detail huruf Handakuten Hiragana berdasarkan romaji         |
-| `GET /yoon/hiragana/:romaji`       | Detail huruf Yoon Hiragana berdasarkan romaji               |
+| Endpoint                           | Deskripsi                                                        |
+| ---------------------------------- | ---------------------------------------------------------------- |
+| `GET /hiragana`                    | Daftar lengkap Hiragana                                          |
+| `GET /hiragana/full`               | Daftar lengkap Hiragana (termasuk Dakuten, Handakuten, dan Yoon) |
+| `GET /dakuten/hiragana`            | Hiragana dengan Dakuten                                          |
+| `GET /handakuten/hiragana`         | Hiragana dengan Handakuten                                       |
+| `GET /yoon/hiragana`               | Hiragana Yoon                                                    |
+| `GET /hiragana/:romaji`            | Detail huruf Hiragana berdasarkan romaji                         |
+| `GET /dakuten/hiragana/:romaji`    | Detail huruf Dakuten Hiragana berdasarkan romaji                 |
+| `GET /handakuten/hiragana/:romaji` | Detail huruf Handakuten Hiragana berdasarkan romaji              |
+| `GET /yoon/hiragana/:romaji`       | Detail huruf Yoon Hiragana berdasarkan romaji                    |
 
 ---
 
 ### 🟥 Katakana Endpoints <a name="katakana-endpoints"></a>
 
-| Endpoint                           | Deskripsi                          |
-| ---------------------------------- | ---------------------------------- |
-| `GET /katakana`                    | Daftar lengkap Katakana               |
-| `GET /katakana/full`               | Daftar lengkap Katakana (termasuk Dakuten,  Handakuten, dan Yoon)                    |
-| `GET /dakuten/katakana`            | Katakana dengan Dakuten            |
-| `GET /handakuten/katakana`         | Katakana dengan Handakuten         |
-| `GET /yoon/katakana`               | Katakana Yoon                      |
-| `GET /katakana/:romaji`            | Detail huruf Katakana berdasarkan romaji |
-| `GET /dakuten/katakana/:romaji`    | Detail huruf Dakuten Katakana berdasarkan romaji         |
-| `GET /handakuten/katakana/:romaji` | Detail huruf Handakuten Katakana berdasarkan romaji         |
-| `GET /yoon/katakana/:romaji`       | Detail huruf Yoon Katakana berdasarkan romaji               |
+| Endpoint                           | Deskripsi                                                        |
+| ---------------------------------- | ---------------------------------------------------------------- |
+| `GET /katakana`                    | Daftar lengkap Katakana                                          |
+| `GET /katakana/full`               | Daftar lengkap Katakana (termasuk Dakuten, Handakuten, dan Yoon) |
+| `GET /dakuten/katakana`            | Katakana dengan Dakuten                                          |
+| `GET /handakuten/katakana`         | Katakana dengan Handakuten                                       |
+| `GET /yoon/katakana`               | Katakana Yoon                                                    |
+| `GET /katakana/:romaji`            | Detail huruf Katakana berdasarkan romaji                         |
+| `GET /dakuten/katakana/:romaji`    | Detail huruf Dakuten Katakana berdasarkan romaji                 |
+| `GET /handakuten/katakana/:romaji` | Detail huruf Handakuten Katakana berdasarkan romaji              |
+| `GET /yoon/katakana/:romaji`       | Detail huruf Yoon Katakana berdasarkan romaji                    |
 
 ---
 
@@ -188,8 +188,8 @@ Semua endpoint mengembalikan data dalam format JSON.
     "tentang": "Hiragana adalah salah satu sistem penulisan...",
     "info": "Hiragana biasanya digunakan untuk...",
     "penjelasan": "Hiragana juga memiliki variasi suara yang...",
-    "hiragana_huruf": {
-      "a": {
+    "hiragana_huruf": [
+       {
         "romaji": "a",
         "kana": "あ",
         "kakikata_gambar": "https://kotonogi-api.vercel.app/images/hiragana/a.svg",
@@ -199,52 +199,38 @@ Semua endpoint mengembalikan data dalam format JSON.
             { "romaji": "asa", "kana": "あさ", "arti": "pagi" }
         ]
       }
-    }
+    ]
   },
-  "katakana": { 
+  "katakana": {
     "total": 23,
     "tentang": "Katakana adalah salah satu sistem penulisan...",
     "info": "Katakana lebih sering digunakan untuk...",
     "penjelasan": "Tanda ― (sering disebut 'chōon' atau 'long vowel mark') digunakan...",
-    "katakana_huruf": {
-        "a": {...},
-    }
+    "katakana_huruf": [ {"romaji": "a", ...}, {...} ]
   },
   "dakuten": {
     "total": 50,
     "tentang": "Dakuten adalah tanda berupa dua garis kecil...",
     "info": "Dakuten sangat penting dalam bahasa Jepang karena...",
     "penjelasan": "Dakuten diterapkan pada lima baris konsonan dasar...",
-    "hiragana_huruf": {
-        "ga": {...},
-    }, 
-    "katakana_huruf": {
-        "ga": {...},
-    }
+    "hiragana_huruf": [ {"romaji": "ga", ...}, {...} ],
+    "katakana_huruf": [ {"romaji": "ga", ...}, {...} ],
   },
   "handakuten": {
     "total": 10,
     "tentang": "Handakuten adalah tanda berupa lingkaran kecil yang...",
     "info": "Handakuten sangat penting dalam bahasa Jepang...",
     "penjelasan": "Handakuten hanya diterapkan pada baris h dalam...",
-    "hiragana_huruf": {
-        "pa": {...},
-    }, 
-    "katakana_huruf": {
-        "pa": {...},
-    }
+    "hiragana_huruf": [ {"romaji": "ga", ...}, {...} ],
+    "katakana_huruf": [ {"romaji": "pa", ...}, {...} ]
   },
   "yoon": {
     "total": 72,
     "tentang": "Huruf gabungan dalam bahasa Jepang biasanya merujuk pada...",
     "info": "Huruf seperti ぢゃ, ぢゅ, ぢょ lebih sering digantikan oleh...",
     "penjelasan": "Dalam bahasa Jepang, huruf gabungan ini sering...",
-    "hiragana_huruf": {
-        "gya": {...},
-    }, 
-    "katakana_huruf": {
-        "gya": {...},
-    }
+    "hiragana_huruf": [ {"romaji": "ga", ...}, {...} ],
+    "katakana_huruf": [ {"romaji": "gya", ...}, {...} ]
   }
 }
 ```
@@ -257,8 +243,8 @@ Semua endpoint mengembalikan data dalam format JSON.
   "tentang": "Hiragana adalah salah satu sistem penulisan...",
   "info": "Hiragana biasanya digunakan untuk menulis kata-kata...",
   "penjelasan": "Hiragana juga memiliki variasi suara...",
-  "hiragana_huruf": {
-    "a": {
+  "hiragana_huruf": [
+    {
       "romaji": "a",
       "kana": "あ",
       "kakikata_gambar": "https://kotonogi-api.vercel.app/images/hiragana/a.svg",
@@ -268,7 +254,7 @@ Semua endpoint mengembalikan data dalam format JSON.
         { "romaji": "asa", "hiragana": "あさ", "arti": "pagi" }
       ]
     }
-  }
+  ]
 }
 ```
 

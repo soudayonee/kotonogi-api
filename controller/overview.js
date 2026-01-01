@@ -7,7 +7,7 @@ const rootMessage = (req, res) => {
     name: "Kotonogi API",
     description:
       "Public API untuk pembelajaran huruf Jepang (Hiragana & Katakana) beserta variasinya seperti Dakuten, Handakuten, dan Yoon. Seluruh data bersifat statis dan menggunakan SVG untuk gambar serta animasi. Asset SVG mempunyai copyright yang bisa diperiksa di bagian atas file masing-masing.",
-    version: "1.0.1",
+    version: "2.0.1",
     base_url: baseUrl,
     documentation: {
       github: "https://github.com/soudayonee/kotonogi-api",
