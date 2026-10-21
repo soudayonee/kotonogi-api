@@ -1,6 +1,20 @@
 {
   "title": "Kotonogi API",
-  "desk": "Public API untuk pembelajaran huruf Jepang (Hiragana & Katakana) beserta variasinya seperti Dakuten, Handakuten, dan Yoon. Seluruh data bersifat statis dan menggunakan SVG untuk gambar serta animasi. Asset SVG mempunyai copyright yang bisa diperiksa di bagian atas file masing-masing.",
+  "description": "Public API untuk pembelajaran huruf Jepang (Hiragana & Katakana) beserta variasinya seperti Dakuten, Handakuten, dan Yoon. Seluruh data bersifat statis dan menggunakan SVG untuk gambar serta animasi. Asset SVG mempunyai copyright yang bisa diperiksa di bagian atas file masing-masing.",
+  "category": "API",
+  "tags": [
+    "API",
+    "Node.js",
+    "Express.js",
+    "Nodemon",
+    "Hiragana",
+    "Katakana",
+    "Dakuten",
+    "Handakuten",
+    "Yoon",
+    "SVG",
+    "Static Data"
+  ],
   "stack": [
     "Node.js",
     "Express.js",
