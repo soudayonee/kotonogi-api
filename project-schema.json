@@ -21,6 +21,7 @@
     "Nodemon"
   ],
   "icon": "public/kotonogi-logo.png",
+  "pinned": true,
   "url": "",
   "listed": true
 }
